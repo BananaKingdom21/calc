@@ -22,41 +22,41 @@ body {
   width: 7.5vw;
   height: 7.5vh;
 }
-#1 {
+#b1 {
   top: 50vh;
   left: calc(12.5vw + 7.5vw *0.25);
 }
-#2 {
+#b2 {
   top: 50vh;
   left: calc(12.5vw + 7.5vw *1.5);
 }
-#3 {
+#b3 {
   top: 50vh;
   left: calc(12.5vw + 7.5vw *2.75);
 }
 
-#4 {
+#b4 {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 7.5vw *0.25);
 }
-#5 {
+#b5 {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 7.5vw *1.5);
 }
-#6 {
+#b6 {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 7.5vw *2.75);
 }
 
-#7 {
+#b7 {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 7.5vw *0.25);
 }
-#8 {
+#b8 {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 7.5vw *1.5);
 }
-#9 {
+#b9 {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 7.5vw *2.75);
 }
