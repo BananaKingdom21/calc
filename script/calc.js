@@ -1,18 +1,18 @@
 var mathArea = document.getElementById("answerArea");
 var someMath;
-var answer;
 
 function solve(math){
+    someMath.replace("=","");
     return Function('return (' + math + ')')();
 }
 
 function calc1 () {
   requestAnimationFrame(calc1);
   
-  mathValue = mathArea1.value;
+  someMath = mathArea.value;
   
-  if (mathValue.search("=") < 0) {
-  solve();
+  if (someMath.search("=") >= 0) {
+  mathArea.textContent = solve(someMath);
   }
 
 }
