@@ -4,8 +4,8 @@ body {
 }
 .box {
   background-color: gray;
-  position: absolute;
   border-radius: 3vw;
+  position: absolute;
 }
 #main {
   width: 30vw;
@@ -13,10 +13,23 @@ body {
   top: 5vh;
   left: 12.5vw;
 }
+#answerArea {
+  background-color: darkgray;
+  border-radius: 0.75vw;
+  border: 1px solid black;
+  position: absolute;
+  top: 12.5vh;
+  left: calc(12.5vw + 2.5vw);
+  width: 25vw; height: 7.5vh;
+  height: 7.5vh;
+  text-align: end;
+  font-size: 2.5vh;
+}
 .button {
   background-color: darkgray;
-  position: absolute;
   border-radius: 0.75vw;
+  border: 1px solid black;
+  position: absolute;
   text-align: center;
   font-size: 2.5vh;
   width: 7.5vw;
