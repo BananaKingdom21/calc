@@ -2,6 +2,10 @@ body {
   background-color: lightgray;
   overflow: hidden;
 }
+.text {
+  position: relative;
+  top: 2vh; 
+}
 .box {
   background-color: gray;
   border-radius: 3vw;
