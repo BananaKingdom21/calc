@@ -24,7 +24,10 @@ function calc1 () {
   requestAnimationFrame(calc1);
   
   prob1 = mathArea1.value.split("");
+  
+  if (mathArea.value.search("=") < 0) {
   solve();
+  }
 
 }
 requestAnimationFrame(calc1);
