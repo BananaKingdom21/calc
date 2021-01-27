@@ -1,4 +1,5 @@
 var mathArea1 = document.getElementById("answerArea");
+var mathValue = mathArea1.value;
 var prob1 = undefined;
 var answer = 0;
 
@@ -23,9 +24,10 @@ function solve () {
 function calc1 () {
   requestAnimationFrame(calc1);
   
-  prob1 = mathArea1.value.split("");
+  mathValue = mathArea1.value;
+  prob1 = mathValue.split("");
   
-  if (mathArea.value.search("=") < 0) {
+  if (mathValue.search("=") < 0) {
   solve();
   }
 
