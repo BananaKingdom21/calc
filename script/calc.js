@@ -1,12 +1,10 @@
 var mathArea = document.getElementById("answerArea");
-var prob;
+var someMath;
 var answer;
 
-
-function solve (problem) {
-  answer = function(""+problem+"")();
+function solve(math){
+    return Function('return (' + math + ')')();
 }
-
 
 function calc1 () {
   requestAnimationFrame(calc1);
