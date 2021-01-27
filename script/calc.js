@@ -3,7 +3,7 @@ var someMath;
 
 function solve(math){
     someMath.replace("=","");
-    return Function('return (' + math + ')')();
+    return window.Function("return (" + math + ")")();
 }
 
 function calc1 () {
@@ -12,7 +12,7 @@ function calc1 () {
   someMath = mathArea.value;
   
   if (someMath.search("=") >= 0) {
-  mathArea.textContent = solve(someMath);
+  mathArea.value = solve(someMath);
   }
 
 }
