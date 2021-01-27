@@ -21,8 +21,9 @@ function solve () {
 
 
 function calc1 () {
-  requestAnimationFram(calc1);
+  requestAnimationFrame(calc1);
   
   prob1 = mathArea1.value.split("");
 
 }
+requestAnimationFrame(calc1);
