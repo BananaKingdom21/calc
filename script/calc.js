@@ -11,3 +11,18 @@ mathArea.onkeydown = function(event){
     var key = event.key;
     if (key === "=" || key === "Enter") {swap();}
 }
+
+function button (button, numORsym) {
+    var thing = document.getElementById(button);
+    thing.onclick = function () {mathArea.value += numORsym;}
+}
+button("b1", "1");
+button("b2", "2");
+button("b3", "3");
+button("b4", "4");
+button("b5", "5");
+button("b6", "6");
+button("b7", "7");
+button("b8", "8");
+button("b9", "9");
+button("dot", ".");
