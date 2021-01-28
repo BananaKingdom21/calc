@@ -5,7 +5,7 @@ var test = 0;
 //do the math
 function solve (math){return Function("return (" + math + ")")();}
 
-function swap () {someMath = mathArea.value;someMath = someMath.replace("=","");someMath = someMath.replace("x","*");someMath = someMath.replace("÷","/");mathArea.value = solve(someMath);}
+function swap () {someMath = mathArea.value;someMath = someMath.replace("=","");someMath = someMath.replace(/x/g,"*");someMath = someMath.replace(/÷/g,"/");someMath = someMath.replace(/^/, "**");someMath = someMath.replace(/√/, "Math.sqrt");mathArea.value = solve(someMath);}
 
 mathArea.onkeydown = function(event){
     var key = event.key;
@@ -20,6 +20,12 @@ function clearButton () {
     var thing = document.getElementById("ac");
     thing.onclick = function () {mathArea.value = "";}
 }
+
+button("openBracket", "(");
+button("closeBracket", ")");
+button("exponent", "^");
+button("squareRoot", "√()");
+button("equal", "=");
 
 button("b1", "1");
 button("b2", "2");
