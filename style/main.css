@@ -52,7 +52,10 @@ body {
   top: 50vh;
   left: calc(12.5vw + 5.625vw *2.75);
 }
-
+#multiply {
+  top: 50vh;
+  left: calc(12.5vw + 5.625vw *4);
+}
 #b4 {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 5.625vw *0.25);
@@ -64,6 +67,10 @@ body {
 #b6 {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 5.625vw *2.75);
+}
+#divide {
+  top: calc(50vh + 7.5vh *1.25);
+  left: calc(12.5vw + 5.625vw *4);
 }
 #b7 {
   top: calc(50vh + 7.5vh *2.5);
@@ -77,6 +84,10 @@ body {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 5.625vw *2.75);
 }
+#add {
+  top: calc(50vh + 7.5vh *2.5);
+  left: calc(12.5vw + 5.625vw *4);
+}
 #b0 {
   top: calc(50vh + 7.5vh *3.75);
   left: calc(12.5vw + 5.625vw *0.25);
@@ -88,5 +99,9 @@ body {
 #ac {
   top: calc(50vh + 7.5vh *3.75);
   left: calc(12.5vw + 5.625vw *2.75);
+}
+#substract {
+  top: calc(50vh + 7.5vh *3.75);
+  left: calc(12.5vw + 5.625vw *4);
 }
 
