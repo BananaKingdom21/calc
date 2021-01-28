@@ -24,13 +24,20 @@ function clearButton () {
 button("b1", "1");
 button("b2", "2");
 button("b3", "3");
+button("multiply", "x");
+
 button("b4", "4");
 button("b5", "5");
 button("b6", "6");
+button("divide", "÷");
+
 button("b7", "7");
 button("b8", "8");
 button("b9", "9");
+button("add", "+");
+
 button("b0", "0");
 button("dot", ".");
 clearButton();
+button("substract", "-");
 
