@@ -65,7 +65,6 @@ body {
   top: calc(50vh + 7.5vh *1.25);
   left: calc(12.5vw + 7.5vw *2.75);
 }
-
 #b7 {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 7.5vw *0.25);
@@ -78,3 +77,16 @@ body {
   top: calc(50vh + 7.5vh *2.5);
   left: calc(12.5vw + 7.5vw *2.75);
 }
+#b0 {
+  top: calc(50vh + 7.5vh *3.75);
+  left: calc(12.5vw + 7.5vw *0.25);
+}
+#dot {
+  top: calc(50vh + 7.5vh *3.75);
+  left: calc(12.5vw + 7.5vw *1.5);
+}
+#ac {
+  top: calc(50vh + 7.5vh *3.75);
+  left: calc(12.5vw + 7.5vw *2.75);
+}
+
