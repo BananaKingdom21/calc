@@ -16,6 +16,11 @@ function button (button, numORsym) {
     var thing = document.getElementById(button);
     thing.onclick = function () {mathArea.value += numORsym;}
 }
+function clearButton () {
+    var thing = document.getElementById("ac");
+    thing.onclick = function () {mathArea.value = "";}
+}
+
 button("b1", "1");
 button("b2", "2");
 button("b3", "3");
@@ -25,4 +30,7 @@ button("b6", "6");
 button("b7", "7");
 button("b8", "8");
 button("b9", "9");
+button("b0", "0");
 button("dot", ".");
+clearButton();
+
