@@ -40,6 +40,35 @@ body {
   width: 5.625vw;
   height: 7.5vh;
 }
+#openBracket {
+  width: 4.21875vw;
+  height: 5.625vh;
+  top: calc(50vh - 5.625vh *1.25);
+  left: calc(12.5vw + 4.21875vw *0.25);
+}
+#closeBracket {
+  width: 4.21875vw;
+  height: 5.625vh;
+  top: calc(50vh - 5.625vh *1.25);
+  left: calc(12.5vw + 4.21875vw *1.5);
+}
+#exponent {
+  width: 4.21875vw;
+  height: 5.625vh;
+  top: calc(50vh - 5.625vh *1.25);
+  left: calc(12.5vw + 4.21875vw *2.75);
+}
+#squareRoot {
+  width: 4.21875vw;
+  height: 5.625vh;
+  top: calc(50vh - 5.625vh *1.25);
+  left: calc(12.5vw + 4.21875vw *4);
+}
+#equal {
+  top: calc(50vh - 7.5vh *1.25);
+  left: calc(12.5vw + 5.625vw *4);
+}
+
 #b1 {
   top: 50vh;
   left: calc(12.5vw + 5.625vw *0.25);
