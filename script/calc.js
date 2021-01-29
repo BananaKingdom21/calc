@@ -1,6 +1,7 @@
-var mathArea = document.getElementById("answerArea");
-var someMath;
-var test = 0;
+{
+let mathArea = document.getElementById("answerArea");
+let someMath;
+let test = 0;
 
 //do the math
 function solve (math){return Function("return (" + math + ")")();}
@@ -14,8 +15,6 @@ mathArea.onkeydown = function(event){
 
 function button (button, numORsym) {
     var thing = document.getElementById(button);
-    
-    
     thing.onclick = function () {if(mathArea.value.endsWith(")")){mathArea.value = mathArea.value.slice(0, -1);mathArea.value = mathArea.value += numORsym;}else{mathArea.value += numORsym;}}
 }
 function clearButton () {
@@ -57,5 +56,4 @@ button("dot", ".");
 clearButton();
 deleteButton();
 button("substract", "-");
-
-function removeEqualSymbol () {requestAnimationFrame(removeEqualSymbol);if(mathArea.value.ensWith("=")){mathArea.value = mathArea.value.slice(0, -1);}}requestAnimationFrame(removeEqualSymbol);
+}
