@@ -5,7 +5,7 @@ var test = 0;
 //do the math
 function solve (math){return Function("return (" + math + ")")();}
 
-function swap () {someMath = mathArea.value;someMath = someMath.replace("=","");someMath = someMath.replace(/x/g,"*");someMath = someMath.replace(/÷/g,"/");someMath = someMath.replace(/\^/g, "**");someMath = someMath.replace(/√/, "Math.sqrt");mathArea.value = solve(someMath);}
+function swap () {someMath = mathArea.value;someMath = someMath.replace(/=/g,"");someMath = someMath.replace(/x/g,"*");someMath = someMath.replace(/÷/g,"/");someMath = someMath.replace(/\^/g, "**");someMath = someMath.replace(/√/, "Math.sqrt");mathArea.value = solve(someMath);}
 
 mathArea.onkeydown = function(event){
     var key = event.key;
@@ -19,6 +19,10 @@ function button (button, numORsym) {
 function clearButton () {
     var thing = document.getElementById("ac");
     thing.onclick = function () {mathArea.value = "";}
+}
+function equalButton () {
+    var thing = document.getElementById("equal");
+    thing.onclick = function () {swap();}
 }
 
 button("openBracket", "(");
