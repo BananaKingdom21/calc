@@ -23,7 +23,7 @@ body {
   transition-delay: 0.5s;
   transition: height 4.5s;
 }
-#optionsContainer: hover ~ #optionBack {
+#optionsContainer:hover #optionBack {
   display: block;
   height: 90vh;
 }
