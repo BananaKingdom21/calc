@@ -27,7 +27,7 @@ body {
 }
 #optionTitle {
   position: relative;
-  left: calc(25vw /3);
+  left: calc(25vw - 15vh);
   top: -0.75vh;
   font-size: 5vh;
 }
