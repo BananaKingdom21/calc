@@ -53,5 +53,6 @@ button("add", "+");
 button("b0", "0");
 button("dot", ".");
 clearButton();
+deleteButton();
 button("substract", "-");
 
