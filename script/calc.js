@@ -27,9 +27,9 @@ function equalButton () {
 
 button("openBracket", "(");
 button("closeBracket", ")");
-button("exponent", "^");
+button("exponent", "^()");
 button("squareRoot", "√()");
-button("equal", "=");
+equalButton();
 
 button("b1", "1");
 button("b2", "2");
