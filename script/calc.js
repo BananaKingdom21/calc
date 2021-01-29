@@ -20,6 +20,10 @@ function clearButton () {
     var thing = document.getElementById("ac");
     thing.onclick = function () {mathArea.value = "";}
 }
+function deleteButton () {
+    var thing = document.getElementById("del");
+    thing.onclick = function () {mathArea.value = mathArea.value.slice(0, -1);}
+}
 function equalButton () {
     var thing = document.getElementById("equal");
     thing.onclick = function () {swap();}
