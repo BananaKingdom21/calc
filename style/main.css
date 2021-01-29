@@ -68,7 +68,7 @@ body {
   width: calc(5.625vw * 7/8);
   height: calc(7.5vh * 4/5);
   top: calc(50vh - 7.5vh *1.45);
-  left: calc(12.5vw + 5.625vw *66/16);
+  left: calc(12.5vw + 5.625vw *65/16);
 }
 
 #b1 {
@@ -87,7 +87,7 @@ body {
   width: calc(5.625vw * 7/8);
   height: calc(7.5vh * 4/5);
   top: calc(50vh - 7.5vh * 2/5);
-  left: calc(12.5vw + 5.625vw *66/16);
+  left: calc(12.5vw + 5.625vw *65/16);
 }
 
 #b4 {
@@ -106,7 +106,7 @@ body {
   width: calc(5.625vw * 7/8);
   height: calc(7.5vh * 4/5);
   top: calc(50vh + 7.5vh *1.25 - 7.5vh * 3/5);
-  left: calc(12.5vw + 5.625vw *66/16);
+  left: calc(12.5vw + 5.625vw *65/16);
 }
 
 #b7 {
@@ -125,7 +125,7 @@ body {
   width: calc(5.625vw * 7/8);
   height: calc(7.5vh * 4/5);
   top: calc(50vh + 7.5vh *2.75 - 7.5vh * 5/5);
-  left: calc(12.5vw + 5.625vw *66/16);
+  left: calc(12.5vw + 5.625vw *65/16);
 }
 
 #b0 {
@@ -149,6 +149,6 @@ body {
   width: calc(5.625vw * 7/8);
   height: calc(7.5vh * 4/5);
   top: calc(50vh + 7.5vh *3.75 - 7.5vh;
-  left: calc(12.5vw + 5.625vw *66/16);
+  left: calc(12.5vw + 5.625vw *65/16);
 }
 
