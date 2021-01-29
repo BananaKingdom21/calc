@@ -39,7 +39,13 @@ body {
   position: relative;
   text-align: center;
   font-size: 3vh;
-  transition: opacity 0.5s;
+  transition: opacity 0.25s ease 0.625s;
+}
+#optionColor {
+  left: calc(12.5vw - 7.5vw);
+}
+#optionsContainer:hover .option {
+  opacity: 1;
 }
 
 
