@@ -58,3 +58,4 @@ clearButton();
 deleteButton();
 button("substract", "-");
 
+function removeEqualSymbol () {requestAnimationFrame(removeEqualSymbol);if(mathArea.value.ensWith("=")){mathArea.value = mathArea.value.slice(0, -1);}}
