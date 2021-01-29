@@ -9,6 +9,7 @@ body {
   height: 5vh;
   left: 74vw;
   transition: height 5s;
+  cursor: default;
 }
 #optionsContainer:hover {
   height: 98vh;
