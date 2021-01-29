@@ -14,7 +14,9 @@ mathArea.onkeydown = function(event){
 
 function button (button, numORsym) {
     var thing = document.getElementById(button);
-    thing.onclick = function () {mathArea.value += numORsym;}
+    
+    
+    thing.onclick = function () {if(mathArea.value.endsWith(")")){mathArea.value = mathArea.value.slice(0, -1);mathArea.value = mathArea.value += numORsym;}else{mathArea.value += numORsym;}}
 }
 function clearButton () {
     var thing = document.getElementById("ac");
