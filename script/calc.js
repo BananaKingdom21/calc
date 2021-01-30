@@ -7,7 +7,7 @@ var color = document.getElementById("color");
 //color option stuff
 {
   let button = document.getElementById("optionColor");
-  button.onclick = function () {colorOn = 1;}
+  button.onclick = function () {calculatorOn = 0;colorOn = 1;}
   
 }
 
