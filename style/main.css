@@ -39,7 +39,7 @@ body {
   position: relative;
   text-align: center;
   font-size: 3vh;
-  transition: opacity 0.25s ease 0.625s;
+  transition: opacity 0.25s ease 0.25s;
 }
 #optionColor {
   width: 7.5vw;
