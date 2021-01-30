@@ -42,7 +42,9 @@ body {
   transition: opacity 0.25s ease 0.625s;
 }
 #optionColor {
-  left: calc(12.5vw - 7.5vw);
+  width: 7.5vw;
+  top: 3vh;
+  left: calc(12.5vw - 5vw);
 }
 #optionsContainer:hover .option {
   opacity: 1;
