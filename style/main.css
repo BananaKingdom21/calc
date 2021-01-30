@@ -47,8 +47,24 @@ body {
   left: calc(12.5vw - 5vw);
 }
 #optionsContainer:hover .option {
+  z-index: 2;
   opacity: 1;
 }
+#colorBack1 {
+  top: 12.5vh;
+  left: 12.5vw;
+  width: 50vw;
+  height: 75vh;
+}
+#colorBack2 {
+  background-color: rgb(169 169 169);
+  width: 45vw;
+  height: 65vh;
+  top: 17.5vh;
+  left: 15vw;
+}
+
+
 
 
 /*Normal calculator stuff*/
