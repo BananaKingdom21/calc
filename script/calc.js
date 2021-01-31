@@ -21,6 +21,13 @@ tc.value = "#000000";
   let button = document.getElementById("optionColor");
   button.onclick = function (){calculatorOn = 0;colorOn = 1;}
 }
+{
+  let button = document.getElementById("optionColor");
+  button.onclick = function (){calculatorOn = 0;colorOn = 1;}
+}
+
+
+//changing colors
 function changeColor () {
  requestAnimationFrame(changeColor);
   root.style.setProperty("--backgroundColor", bac.value);
