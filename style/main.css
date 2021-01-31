@@ -42,7 +42,7 @@ body {
 }
 .option {
   opacity: 0;
-  background-color: var(--optionBackgroundColor);
+  background-color: var(--buttonColor);
   border: 2px solid black;
   border-radius: 3vh;
   position: relative;
