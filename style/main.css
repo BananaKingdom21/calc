@@ -55,6 +55,11 @@ body {
   top: 3vh;
   left: calc(12.5vw - 5vw);
 }
+#optionCalculator {
+  width: 12vw;
+  top: 8vh;
+  left: 5vw;
+}
 #optionsContainer:hover .option {
   z-index: 2;
   opacity: 1;
