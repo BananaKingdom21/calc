@@ -3,6 +3,7 @@ var calculatorOn = 1;
 var calculator = document.getElementById("calculator");
 var colorOn = 0;
 var color = document.getElementById("color");
+var root = document.documentElement;
 
 var bac = document.getElementById("backColor");
 bac.value = "#d3d3d3";
@@ -22,7 +23,11 @@ tc.value = "#000000";
 }
 function changeColor () {
  requestAnimationFrame(changeColor);
-  
+  root.style.setProperty("--backgroundColor", bac.value);
+  root.style.setProperty("--boxColor", boc.value);
+  root.style.setProperty("--optionBackgroundColor", obc.value);
+  root.style.setProperty("--buttonColor", buc.value);
+  root.style.setProperty("-textColor", tc.value);
 }
 requestAnimationFrame(changeColor);
 
