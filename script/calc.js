@@ -9,11 +9,11 @@ bac.value = "rgb(211, 211, 211)";
 var boc = document.getElementById("boxColor");
 boc.value = "rgb(128, 128, 128)";
 var obc = document.getElementById("optBackColor");
-bc.value = "rgb(105, 105, 105)";
+obc.value = "rgb(105, 105, 105)";
 var buc = document.getElementById("buttonColor");
-bc.value = "rgb(169, 169, 169)";
+buc.value = "rgb(169, 169, 169)";
 var tc = document.getElementById("textColor");
-bc.value = "rgb(255, 255, 255)";
+tc.value = "rgb(255, 255, 255)";
 
 //color option stuff
 {
