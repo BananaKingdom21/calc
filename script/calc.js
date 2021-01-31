@@ -19,9 +19,9 @@ tc.value = "#000000";
 //option stuff
 {
   let button = document.getElementById("optionColor");
-  button.onclick = function(){calculatorOn = 0;colorOn = 1;}
+  button.onclick = function (){calculatorOn = 0;colorOn = 1;}
   let calculator = document.getElementById("optionCalculator");
-  button.onclick = function(){colorOn = 0;calculatorOn = 1;}
+  button.onclick = function (){colorOn = 0;calculatorOn = 1;}
 }
 function changeColor () {
  requestAnimationFrame(changeColor);
