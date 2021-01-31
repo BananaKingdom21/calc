@@ -5,15 +5,15 @@ var colorOn = 0;
 var color = document.getElementById("color");
 
 var bac = document.getElementById("backColor");
-bac.value = "rgb(211, 211, 211)";
+bac.value = "#d3d3d3";
 var boc = document.getElementById("boxColor");
-boc.value = "rgb(128, 128, 128)";
+boc.value = "#808080";
 var obc = document.getElementById("optBackColor");
-obc.value = "rgb(105, 105, 105)";
+obc.value = "#696969";
 var buc = document.getElementById("buttonColor");
-buc.value = "rgb(169, 169, 169)";
+buc.value = "#a9a9a9";
 var tc = document.getElementById("textColor");
-tc.value = "rgb(255, 255, 255)";
+tc.value = "#000000";
 
 //color option stuff
 {
