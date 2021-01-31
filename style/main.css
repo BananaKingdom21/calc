@@ -63,6 +63,25 @@ body {
   top: 17.5vh;
   left: 15vw;
 }
+.colorInput {
+  position: absolute;
+  left: 25vw;
+}
+#baColor {
+  top: 20vh;
+}
+#boColor {
+  top: 25vh;
+}
+#obColor {
+  top: 30vh;
+}
+#buColor {
+  top: 35vh;
+}
+#tColor {
+  top: 40vh;
+}
 
 
 
