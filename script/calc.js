@@ -34,7 +34,7 @@ function changeColor () {
   root.style.setProperty("--boxColor", boc.value);
   root.style.setProperty("--optionBackgroundColor", obc.value);
   root.style.setProperty("--buttonColor", buc.value);
-  root.style.setProperty("-textColor", tc.value);
+  root.style.setProperty("--textColor", tc.value);
 }
 requestAnimationFrame(changeColor);
 
