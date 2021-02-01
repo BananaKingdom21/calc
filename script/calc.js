@@ -22,8 +22,8 @@ tc.value = "#000000";
   button.onclick = function (){calculatorOn = 0;colorOn = 1;}
 }
 {
-  let button = document.getElementById("optionColor");
-  button.onclick = function (){calculatorOn = 0;colorOn = 1;}
+  let calc = document.getElementById("optionCalculator");
+  calc.onclick = function (){calculatorOn = 0;colorOn = 1;}
 }
 
 
