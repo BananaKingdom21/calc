@@ -18,12 +18,12 @@ tc.value = "#000000";
 
 //option stuff
 {
-  let button = document.getElementById("optionColor");
-  button.onclick = function (){calculatorOn = 0;colorOn = 1;}
+  let optbutton = document.getElementById("optionColor");
+  optbutton.onclick = function (){calculatorOn = 0;colorOn = 1;}
 }
 {
-  let calc = document.getElementById("optionCalculator");
-  calc.onclick = function (){calculatorOn = 0;colorOn = 1;}
+  let optcalculator = document.getElementById("optionCalculator");
+  optcalculator.onclick = function (){colorOn = 0;calculatorOn = 1;}
 }
 
 
